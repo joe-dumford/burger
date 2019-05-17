@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="/assets/js/burger.js"></script>
+    <script src="/assets/burger.js"></script>
     <title>Burger App</title>
 </head>
 
@@ -35,12 +35,11 @@
             <!-- Undevoured Burgers -->
             <div class="col-lg-6">
                 <ul>
-                    <!-- {{#each burgers}} -->
                     <p><span class="label">ID:</span> {{this.id}}</p>
                     <p><span class="label">Burger:</span> {{this.burger_name}}</p>
                     <button class="eatburger" data-id="{{this.id}}" data-newDevoured="{{devour}}">Eat the
                         burger</button>
-                    <!-- {{/each}} -->
+
                 </ul>
             </div>
             <!-- Devoured Burgers -->
