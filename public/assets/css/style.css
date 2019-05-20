@@ -1,31 +1,30 @@
 html {
-    background-color: rgb(186, 156, 101);
+    background-color: rgb(88, 194, 194);
 }
 
 body {
     width: 75%;
-   margin: 0 auto; 
-
-   display: flex;
-   min-height: 100vh;
-   flex-direction: column;
-   background-color: white;
+    margin: 0 auto;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: coral;
 }
 
 #bob_burger {
     display: block;
-   margin: auto;
+    margin: auto;
 }
 
 h1 {
     text-align: center;
-    font-family: 'Fontdiner Swanky', cursive;
+    font-family: 'Architects Daughter', cursive;
     font-size: 65px;
     margin: 50px;
 }
 
 .burgerAvailable {
-    font-family: 'Crafty Girls', cursive;
+    font-family: 'Gochi Hand', cursive;
     font-weight: normal;
     font-size: 20px;
     text-align: center;
@@ -43,7 +42,7 @@ h1 {
 }
 
 .burgerEaten {
-    font-family: 'Crafty Girls', cursive;
+    font-family: 'Gochi Hand', cursive;
     font-weight: normal;
     font-size: 20px;
     text-align: center;
@@ -55,8 +54,8 @@ h1 {
 }
 
 h2 {
-     text-align: center;
-    font-family: 'Fontdiner Swanky', cursive;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
     font-size: 40px;
     margin: 50px;
 }
@@ -64,9 +63,12 @@ h2 {
 .formContainer {
     background-color: salmon;
 }
+.placeicon{
+    font-family: fontawesome;
+}
 
 .addBurgerButton {
-    font-family: 'Crafty Girls', cursive;
+    font-family: 'Gochi Hand', cursive;
     font-weight: normal;
     font-size: 20px;
     text-align: center;
@@ -80,10 +82,10 @@ h2 {
 }
 
 .addBurgerButton:active {
-	background-color: rgb(76, 171, 255);
+    background-color: rgb(76, 171, 255);
 }
 
 .burgerFooter {
-	background-color: rgb(76, 171, 255);
-	padding: 20px 0;
+    background-color: rgb(76, 171, 255);
+    padding: 20px 0;
 }
